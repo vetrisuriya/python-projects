@@ -1,5 +1,3 @@
-** start of main.py **
-
 def add_time(start_time, duration, start_day=None):
 
     time_part, period = start_time.split()
@@ -64,6 +62,3 @@ def add_time(start_time, duration, start_day=None):
         new_time_str += f" ({days_passed} days later)"
 
     return new_time_str
-
-** end of main.py **
-
