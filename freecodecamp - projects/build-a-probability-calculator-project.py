@@ -1,5 +1,3 @@
-** start of main.py **
-
 import random
 import copy
 
@@ -46,6 +44,3 @@ def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
             successful_experiments += 1
             
     return successful_experiments / num_experiments
-
-** end of main.py **
-
