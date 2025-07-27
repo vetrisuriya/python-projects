@@ -1,5 +1,3 @@
-** start of main.py **
-
 def arithmetic_arranger(problems, solve=False):
 
     first_operands = []
@@ -69,6 +67,3 @@ def arithmetic_arranger(problems, solve=False):
         arranged_output += "\n" + "    ".join(line4)
 
     return arranged_output
-
-** end of main.py **
-
